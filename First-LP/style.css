@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+     width: 100%;
+     height: 100%;
+}
+.main{
+    user-select: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: hsla(39, 28%, 26%, 0.805);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mtext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    z-index: 9999;
+}
+.mtext h1{
+    font-size: 6vw;
+    font-weight: 90;
+    color: #fffffff4; 
+}
+.mtext h3{
+    font-size: 2vw;
+    font-weight: 90;
+    color: #ffffffed;
+}
+.left{
+    width: 45%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.nav{
+    width: 100%;
+    padding: 50px 60px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    color: #fffffffa;
+}
+.nav h5{
+    font-weight: 800;
+    font-size: 6px;
+    letter-spacing: 2px;
+}
+.nav a{
+    text-decoration: none;
+    color: #fffffffa;
+    font-size: 8px;
+}
+.limage{
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-image: url(https://i.pinimg.com/564x/af/8f/03/af8f034da8f09c0989410fd717bad66b.jpg);
+    background-size: cover;
+}
+.text{
+    position: absolute;
+    width: 100%;
+    top: 110%;
+    display: flex;
+    gap: 30px;
+}
+.text .hedding{
+    width: 100%;
+    color: #fffefe
+}
+.hedding h3{
+    margin-bottom: 10px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 10px;
+}
+.text .massage{
+    font-size: 5px;
+    color: #fefdfded;
+}
+.scroll{
+    position: absolute;
+    bottom: -10%;
+    left: 10%;
+    transform-origin: 0% 50%;
+    transform: rotate(-90deg);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.scroll h4{
+    font-weight: 800;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 6px;
+}
+.scroll .line{
+    width: 150px;
+    height: 2px;
+    background-color: #fff;
+}
+.center{
+    width: 48%;
+    height: 100%;
+}
+.center .box{
+    width: 190px;
+    height: 110px;
+    position: absolute;
+    bottom: 15px;
+    right: 50px;
+    background-image: url(https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+.box .icon{
+    width: 30px;
+    height: 110px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.rimage{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://i.pinimg.com/564x/da/ec/0c/daec0c0eae3b9024ad4ab5199054eca2.jpg);
+    background-size: cover;
+}
+.right{
+    width: 6%;
+    height: 100%;
+}
+.right .ricon{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: #fff;
+}
+.rcontant {
+    display: flex;
+    position: absolute;
+    bottom: 250px;
+    transform: rotate(90deg);
+    gap: 20px;
+    font-size: 6px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
